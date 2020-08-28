@@ -2,7 +2,7 @@
 lock "~> 3.14.1"
 
 set :application, "welp"
-set :repo_url, "git@github.com:ThatJohn/Welp.git"
+set :repo_url, "git@github.com:ThatJohn/welp-fe.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
