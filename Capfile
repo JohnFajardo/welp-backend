@@ -39,9 +39,6 @@ require 'capistrano/rails/migrations'
 
 require 'capistrano/passenger'
 require 'capistrano/rbenv'
-  set :rbenv_type, :user
-  set :rbenv_ruby, '2.6.6'
-
 
 # require 'capistrano/rails/assets'
 #require 'capistrano/rails/migrations'
