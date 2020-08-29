@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: backend_production
-  username: backend
+  database: welp
+  username: welp
   password: <%= ENV['BACKEND_DATABASE_PASSWORD'] %>
