@@ -25,7 +25,6 @@ class UsersController < ApplicationController
 
     def update
         if @user.update(user_params)
-            # render json: @user
             render json: {token: create_token(@user.id, @user.name, @user.username, @user.email)}
         else
             render json:{errors: @user.errors.full_messages}, status: 422
